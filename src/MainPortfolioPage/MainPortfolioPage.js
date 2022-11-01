@@ -1,5 +1,6 @@
 import "./MainPortfolioPage.css";
 import { Link } from "react-router-dom";
+import { BrowserView, MobileView } from "react-device-detect";
 export default function MainPortfolioPage({ ChangeHeight }) {
   return (
     <>
@@ -20,54 +21,95 @@ export default function MainPortfolioPage({ ChangeHeight }) {
             <div className="collapse navbar-collapse" id="navbarText">
               <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                 <li className="nav-item">
-                  <button
-                    data-bs-toggle="collapse"
-                    data-bs-target="#navbarText"
-                    aria-controls="navbarText"
-                    onClick={ChangeHeight}
-                    type="button"
-                    className="btn btn-light navigation-buttons"
-                  >
-                    <strong>Cover Art</strong>
-                  </button>
-                </li>
-                <li className="nav-item">
-                  <Link to="/about">
+                  <MobileView>
                     <button
                       data-bs-toggle="collapse"
                       data-bs-target="#navbarText"
                       aria-controls="navbarText"
+                      onClick={ChangeHeight}
                       type="button"
                       className="btn btn-light navigation-buttons"
                     >
-                      About
+                      <strong>Cover Art</strong>
                     </button>
+                  </MobileView>
+                  <BrowserView>
+                    <button
+                      onClick={ChangeHeight}
+                      type="button"
+                      className="btn btn-light navigation-buttons"
+                    >
+                      <strong>Cover Art</strong>
+                    </button>
+                  </BrowserView>
+                </li>
+                <li className="nav-item">
+                  <Link to="/about">
+                    <MobileView>
+                      <button
+                        data-bs-toggle="collapse"
+                        data-bs-target="#navbarText"
+                        aria-controls="navbarText"
+                        type="button"
+                        className="btn btn-light navigation-buttons"
+                      >
+                        About
+                      </button>
+                    </MobileView>
+                    <BrowserView>
+                      <button
+                        type="button"
+                        className="btn btn-light navigation-buttons"
+                      >
+                        About
+                      </button>
+                    </BrowserView>
                   </Link>
                 </li>
                 <li className="nav-item">
                   <Link to="/projects">
-                    <button
-                      data-bs-toggle="collapse"
-                      data-bs-target="#navbarText"
-                      aria-controls="navbarText"
-                      type="button"
-                      className="btn btn-light navigation-buttons"
-                    >
-                      Projects
-                    </button>
+                    <MobileView>
+                      <button
+                        data-bs-toggle="collapse"
+                        data-bs-target="#navbarText"
+                        aria-controls="navbarText"
+                        type="button"
+                        className="btn btn-light navigation-buttons"
+                      >
+                        Projects
+                      </button>
+                    </MobileView>
+                    <BrowserView>
+                      <button
+                        type="button"
+                        className="btn btn-light navigation-buttons"
+                      >
+                        Projects
+                      </button>
+                    </BrowserView>
                   </Link>
                 </li>
                 <li className="nav-item">
                   <Link to="/resume">
-                    <button
-                      data-bs-toggle="collapse"
-                      data-bs-target="#navbarText"
-                      aria-controls="navbarText"
-                      type="button"
-                      className="btn btn-light navigation-buttons"
-                    >
-                      Resume
-                    </button>
+                    <MobileView>
+                      <button
+                        data-bs-toggle="collapse"
+                        data-bs-target="#navbarText"
+                        aria-controls="navbarText"
+                        type="button"
+                        className="btn btn-light navigation-buttons"
+                      >
+                        Resume
+                      </button>
+                    </MobileView>
+                    <BrowserView>
+                      <button
+                        type="button"
+                        className="btn btn-light navigation-buttons"
+                      >
+                        Resume
+                      </button>
+                    </BrowserView>
                   </Link>
                 </li>
               </ul>
