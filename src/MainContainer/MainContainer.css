@@ -6,3 +6,7 @@
   background-position: center;
   background-size: cover;
 }
+.stickToBottom {
+  margin-top: 110%;
+  color: #aacac8;
+}

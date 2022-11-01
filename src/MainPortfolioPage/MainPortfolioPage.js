@@ -21,6 +21,9 @@ export default function MainPortfolioPage({ ChangeHeight }) {
               <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                 <li className="nav-item">
                   <button
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarText"
+                    aria-controls="navbarText"
                     onClick={ChangeHeight}
                     type="button"
                     className="btn btn-light navigation-buttons"
@@ -31,6 +34,9 @@ export default function MainPortfolioPage({ ChangeHeight }) {
                 <li className="nav-item">
                   <Link to="/about">
                     <button
+                      data-bs-toggle="collapse"
+                      data-bs-target="#navbarText"
+                      aria-controls="navbarText"
                       type="button"
                       className="btn btn-light navigation-buttons"
                     >
@@ -41,6 +47,9 @@ export default function MainPortfolioPage({ ChangeHeight }) {
                 <li className="nav-item">
                   <Link to="/projects">
                     <button
+                      data-bs-toggle="collapse"
+                      data-bs-target="#navbarText"
+                      aria-controls="navbarText"
                       type="button"
                       className="btn btn-light navigation-buttons"
                     >
@@ -51,6 +60,9 @@ export default function MainPortfolioPage({ ChangeHeight }) {
                 <li className="nav-item">
                   <Link to="/resume">
                     <button
+                      data-bs-toggle="collapse"
+                      data-bs-target="#navbarText"
+                      aria-controls="navbarText"
                       type="button"
                       className="btn btn-light navigation-buttons"
                     >

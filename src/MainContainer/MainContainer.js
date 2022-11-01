@@ -1,6 +1,7 @@
 import "./MainContainer.css";
 import React, { useState } from "react";
 import AnimateHeight from "react-animate-height";
+import { isMobile, MobileView } from "react-device-detect";
 
 import { Route, Routes, BrowserRouter, Navigate } from "react-router-dom";
 import MainPortfolioPage from "../MainPortfolioPage/MainPortfolioPage";
@@ -35,14 +36,17 @@ export default function MainContainer() {
           <div className="container">
             <div
               className="row"
-              style={{ paddingTop: "15%", paddingLeft: "40%" }}
+              style={{
+                paddingTop: isMobile ? "25%" : "15%",
+                paddingLeft: isMobile ? "30%" : "40%",
+              }}
             >
               <div className="col-md-12">
                 <a
                   href="https://www.linkedin.com/in/xavieralejandrolozano/"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="fa-4x me-3"
+                  className={(isMobile ? "fa-3x" : "fa-4x") + " me-3"}
                 >
                   <i
                     className="fab fa-linkedin"
@@ -53,7 +57,7 @@ export default function MainContainer() {
                   href="https://github.com/Xavi-Alejandro"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="fa-4x me-3"
+                  className={(isMobile ? "fa-3x" : "fa-4x") + " me-3"}
                 >
                   <i
                     className="fab fa-github"
@@ -64,7 +68,7 @@ export default function MainContainer() {
                   href="https://www.instagram.com/xavieralejandro_l/"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="fa-4x me-3"
+                  className={(isMobile ? "fa-3x" : "fa-4x") + " me-3"}
                 >
                   <i
                     className="fab fa-square-instagram"
@@ -78,7 +82,7 @@ export default function MainContainer() {
                   style={{
                     color: "black",
                     fontFamily: "Pacifico, cursive",
-                    fontSize: "4vw",
+                    fontSize: isMobile ? "7vw" : "4vw",
                   }}
                 >
                   Xavier Alejandro
@@ -89,12 +93,21 @@ export default function MainContainer() {
                   style={{
                     color: "black",
                     fontFamily: "Roboto",
-                    fontSize: "3vw",
+                    fontSize: isMobile ? "5vw" : "3vw",
                   }}
                 >
                   Full-stack Web developer
                 </p>
               </div>
+            </div>
+            <div className="row">
+              <MobileView>
+                <div className="col-md-12">
+                  <div className="text-center">
+                    <p className="stickToBottom fw-bold" onClick={()=>{setHeight(0)}}>Tap to minimize</p>
+                  </div>
+                </div>
+              </MobileView>
             </div>
           </div>
         </div>
@@ -105,7 +118,7 @@ export default function MainContainer() {
         <MainPortfolioPage ChangeHeight={ChangeHeight} />
         <div>
           <Routes>
-            <Route path="/" element={<Navigate to="/about"/>}/>
+            <Route path="/" element={<Navigate to="/about" />} />
             <Route path="/about" element={<About />} />
             <Route path="/projects" element={<Projects />} />
             <Route path="/resume" element={<Resume />} />
