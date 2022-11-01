@@ -1,0 +1,11 @@
+.card-img {
+  filter: grayscale(30%);
+  float: left;
+  margin-right: 30px;
+  max-width: 30ch;
+  border-radius: 10px;
+}
+
+p {
+  font-size:larger;
+}
