@@ -53,4 +53,21 @@ module.exports.data = [
       },
     ],
   },
+  {
+    id: 4,
+    projectTitle: `Real estate portfolio template`,
+    gifSource: "https://portfoliogifs.s3.us-east-2.amazonaws.com/portfolioTemplate.png",
+    link: `http://portfolio-template.s3-website.us-east-2.amazonaws.com/`,
+    projectDescription: [
+      {
+        id: 1,
+        data: `A portfolio template aimed at real estate agents to promote themselves to their clients.`,
+      },
+
+      {
+        id: 2,
+        data: `Created with JQuery and HTML/CSS, and hosted on Amazon Web Services (AWS) for reliability.`,
+      },
+    ],
+  },
 ];
