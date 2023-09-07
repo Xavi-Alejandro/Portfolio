@@ -4,7 +4,7 @@ export default function Resume() {
       <div className="container text-center">
         <object
           title="Resume"
-          data="./media/XavierLozanoResume2022.pdf"
+          data="./media/XavierLozanoResume2023.pdf"
           type="application/pdf"
           width={"100%"}
           height={"1200px"}
