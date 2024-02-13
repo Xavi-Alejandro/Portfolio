@@ -4,7 +4,7 @@ export default function Resume() {
       <div className="container text-center">
         <object
           title="Resume"
-          data="./media/XavierLozanoResume2023.pdf"
+          data="./media/XavierLozanoResume2024.pdf"
           type="application/pdf"
           width={"100%"}
           height={"1200px"}
@@ -13,7 +13,7 @@ export default function Resume() {
           <p>
             <a
               className="btn btn-info"
-              href="https://drive.google.com/file/d/1ZaIpxQuaP4uUPTzlbvwMj0TKUdrA4Ch8/view?usp=sharing"
+              href="https://docs.google.com/document/d/1EBgLJSmTTZhhP5jAjNsRtEZ_1PXWvQyiM3pHQoxK5GA/edit?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
             >
