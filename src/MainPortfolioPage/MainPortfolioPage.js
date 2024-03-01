@@ -30,7 +30,7 @@ export default function MainPortfolioPage({ ChangeHeight }) {
                       type="button"
                       className="btn btn-light navigation-buttons"
                     >
-                      <strong>Cover Art</strong>
+                      <strong>Cover Art/Socials</strong>
                     </button>
                   </MobileView>
                   <BrowserView>
