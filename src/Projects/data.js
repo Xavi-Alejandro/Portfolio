@@ -3,7 +3,7 @@ module.exports.data = [
     id: 1,
     projectTitle: `Xavi's music lounge`,
     gifSource:
-      "https://portfoliogifs.s3.us-east-2.amazonaws.com/XavisMusicLounge.gif",
+      "https://lh3.googleusercontent.com/drive-viewer/AKGpihYlqLBOmCVqvl7jYC85Tu_hTRbzVFdAZcBwU-o1uh8RMPuDsEXpd6C441ccYFyYX3AoarSpw-Zl_XXGpsntJbp3w35ZBw=s1600",
     link: `https://legendary-tartufo-7b1cd1.netlify.app/register`,
     projectDescription: [
       {
@@ -22,19 +22,19 @@ module.exports.data = [
   },
   {
     id: 2,
-    projectTitle: `Real estate portfolio template`,
+    projectTitle: `Portfolio`,
     gifSource:
-      "https://portfoliogifs.s3.us-east-2.amazonaws.com/portfolioTemplate.png",
-    link: `http://portfolio-template.s3-website.us-east-2.amazonaws.com/`,
+      "https://lh3.googleusercontent.com/drive-viewer/AKGpihY_xIuDon78zKP-MwBgo3E5VXy1xAhz_tsUujlpMcJEeTsH8LpjYUXfPeOyDy9sNlNNJ4glGS8SrcYylzF-K1aAVc5-_w=s1600",
+    link: `https://xavier-alejandro.com/`,
     projectDescription: [
       {
         id: 1,
-        data: `A portfolio template aimed at real estate agents to promote themselves to their clients.`,
+        data: `My portfolio.`,
       },
 
       {
         id: 2,
-        data: `Created with JQuery and HTML/CSS, and hosted on Amazon Web Services (AWS) for reliability.`,
+        data: `Created with React.`,
       },
     ],
   },
@@ -42,7 +42,7 @@ module.exports.data = [
     id: 3,
     projectTitle: `Room of Chat`,
     gifSource:
-      "https://portfoliogifs.s3.us-east-2.amazonaws.com/RoomOfChat.gif",
+      "https://lh3.googleusercontent.com/drive-viewer/AKGpihY31gRJSyPWymLBYpED00SrQu48uNbyd6yVVR-6LP55bdjTxgYWJ2jFu7-dR0yw1Qg78kpY2rT9oM5BH8EON6PnZT4LJQ=s1600",
     link: `https://spontaneous-manatee-291ab8.netlify.app/`,
     projectDescription: [
       {
@@ -56,38 +56,4 @@ module.exports.data = [
       },
     ],
   },
-  // {
-  //   id: 3,
-  //   projectTitle: `Trip Visualizer`,
-  //   gifSource: "https://portfoliogifs.s3.us-east-2.amazonaws.com/TripVisualizer.gif",
-  //   link: `https://gleaming-paprenjak-ac7819.netlify.app/#`,
-  //   projectDescription: [
-  //     {
-  //       id: 1,
-  //       data: `A simple trip visualizer with the ability to retrieve trip information and display it in a beautiful way.`,
-  //     },
-
-  //     {
-  //       id: 2,
-  //       data: `Created with JQuery and HTML/CSS.`,
-  //     },
-  //   ],
-  // },
-  // {
-  //   id: 4,
-  //   projectTitle: `Real estate portfolio template`,
-  //   gifSource: "https://portfoliogifs.s3.us-east-2.amazonaws.com/portfolioTemplate.png",
-  //   link: `http://portfolio-template.s3-website.us-east-2.amazonaws.com/`,
-  //   projectDescription: [
-  //     {
-  //       id: 1,
-  //       data: `A portfolio template aimed at real estate agents to promote themselves to their clients.`,
-  //     },
-
-  //     {
-  //       id: 2,
-  //       data: `Created with JQuery and HTML/CSS, and hosted on Amazon Web Services (AWS) for reliability.`,
-  //     },
-  //   ],
-  // },
 ];

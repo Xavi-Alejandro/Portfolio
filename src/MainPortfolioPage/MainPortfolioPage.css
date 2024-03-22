@@ -1,22 +1,19 @@
 .beginningOfPortfolioDiv {
-  background: linear-gradient(
-      to bottom,
-      rgba(255, 255, 255, 0) 75%,
-      rgba(255, 255, 255, 1) 80%
-    ),
-    url("https://portfoliogifs.s3.us-east-2.amazonaws.com/wallpaperBehindProfilePic.jpg")
-      no-repeat 70%;
+  background: url("https://imagedelivery.net/9sCnq8t6WEGNay0RAQNdvQ/UUID-cl8sxqsbe0861yuqyftswyj7f/public") no-repeat center;
   background-size: cover;
   height: 100%;
-  padding-top: 50px;
+  padding: 100px;
+  margin-bottom: 50px;
 }
+
 .profilePic {
   height: 30vh;
   width: 30vh;
   border-radius: 100%;
-  border: 5px solid lightblue;
+  border: 7px solid rgb(255, 255, 255);
   overflow: hidden;
 }
+
 .navigation-buttons {
   font-family: "Roboto";
 }

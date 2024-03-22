@@ -1,11 +1,12 @@
 .coverArt {
-  background-image: url("https://portfoliogifs.s3.us-east-2.amazonaws.com/coverArt.jpg");
+  background-image: url("https://wallpaperbat.com/img/8607466-this-minimalist-landscape-features-a.jpg");
   height: 100%;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
 }
+
 .stickToBottom {
   margin-top: 110%;
   color: #aacac8;

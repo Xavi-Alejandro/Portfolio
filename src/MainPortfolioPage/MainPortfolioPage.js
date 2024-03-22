@@ -123,18 +123,13 @@ export default function MainPortfolioPage({ ChangeHeight }) {
             <div className="col-md-12 text-center">
               <img
                 className="profilePic"
-                src="https://portfoliogifs.s3.us-east-2.amazonaws.com/LinkedInXavi+-+square.jpg"
+                src="https://lh3.googleusercontent.com/drive-viewer/AKGpihbIFdXcPjDniwgKu8gN2KIZSaHORHGKR-KfL5bldyxufV7VTbxklBkeLnnSIgrJbxT6eCQjStUesbLU0o0pxOKecYufzg=s1600"
                 alt="user Pic"
               />
             </div>
           </div>
           <br />
           <br />
-          <div>
-            <br />
-            <br />
-            <br />
-          </div>
         </div>
       </div>
     </>
