@@ -1,9 +1,8 @@
 .beginningOfPortfolioDiv {
   background: url("https://imagedelivery.net/9sCnq8t6WEGNay0RAQNdvQ/UUID-cl8sxqsbe0861yuqyftswyj7f/public") no-repeat center;
   background-size: cover;
-  height: 100%;
-  padding: 100px;
-  margin-bottom: 50px;
+  margin-bottom: 40px;
+  vertical-align: middle;
 }
 
 .profilePic {
@@ -12,6 +11,7 @@
   border-radius: 100%;
   border: 7px solid rgb(255, 255, 255);
   overflow: hidden;
+  margin: 4vh 0;
 }
 
 .navigation-buttons {
