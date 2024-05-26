@@ -5,11 +5,7 @@ export default function About() {
     <>
       <div className="container">
         <div>
-          <img
-            className="card-img"
-            src="https://lh3.googleusercontent.com/drive-viewer/AKGpiha4I9WGBepjgerIA8ElMqvchvaPGwNCffLZz6ezMn2Bs5IvW8V3i6PfE6B8kJDZV4tLLnmtnbOfTisqCTMQuiv_viWKxg=s1600"
-            alt="Me"
-          />
+          <img className="card-img" src="media/aboutMePic.webp" alt="Me" />
         </div>
         <h4>About me</h4>
 

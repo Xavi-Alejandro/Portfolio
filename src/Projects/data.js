@@ -2,8 +2,7 @@ module.exports.data = [
   {
     id: 1,
     projectTitle: `Xavi's music lounge`,
-    gifSource:
-      "https://lh3.googleusercontent.com/drive-viewer/AKGpihYlqLBOmCVqvl7jYC85Tu_hTRbzVFdAZcBwU-o1uh8RMPuDsEXpd6C441ccYFyYX3AoarSpw-Zl_XXGpsntJbp3w35ZBw=s1600",
+    gifSource: "media/MusicLounge.webp",
     link: `https://legendary-tartufo-7b1cd1.netlify.app/register`,
     projectDescription: [
       {
@@ -23,8 +22,7 @@ module.exports.data = [
   {
     id: 2,
     projectTitle: `Portfolio`,
-    gifSource:
-      "https://lh3.googleusercontent.com/drive-viewer/AKGpihY_xIuDon78zKP-MwBgo3E5VXy1xAhz_tsUujlpMcJEeTsH8LpjYUXfPeOyDy9sNlNNJ4glGS8SrcYylzF-K1aAVc5-_w=s1600",
+    gifSource: "media/portfolio.webp",
     link: `https://xavier-alejandro.com/`,
     projectDescription: [
       {
@@ -41,8 +39,7 @@ module.exports.data = [
   {
     id: 3,
     projectTitle: `Room of Chat`,
-    gifSource:
-      "https://lh3.googleusercontent.com/drive-viewer/AKGpihY31gRJSyPWymLBYpED00SrQu48uNbyd6yVVR-6LP55bdjTxgYWJ2jFu7-dR0yw1Qg78kpY2rT9oM5BH8EON6PnZT4LJQ=s1600",
+    gifSource: "media/RoomOfChat.webp",
     link: `https://spontaneous-manatee-291ab8.netlify.app/`,
     projectDescription: [
       {

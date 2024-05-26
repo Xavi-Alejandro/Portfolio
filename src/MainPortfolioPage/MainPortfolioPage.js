@@ -123,7 +123,7 @@ export default function MainPortfolioPage({ ChangeHeight }) {
             <div className="col-md-12 text-center">
               <img
                 className="profilePic"
-                src="https://lh3.googleusercontent.com/drive-viewer/AKGpihbIFdXcPjDniwgKu8gN2KIZSaHORHGKR-KfL5bldyxufV7VTbxklBkeLnnSIgrJbxT6eCQjStUesbLU0o0pxOKecYufzg=s1600"
+                src="media/LinkedInXaviGithub.webp"
                 alt="user Pic"
               />
             </div>
