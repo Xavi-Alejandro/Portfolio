@@ -89,7 +89,7 @@ export default function MainPortfolioPage({ ChangeHeight }) {
                     </BrowserView>
                   </Link>
                 </li>
-                <li className="nav-item">
+                {/* <li className="nav-item">
                   <Link to="/resume">
                     <MobileView>
                       <button
@@ -111,7 +111,7 @@ export default function MainPortfolioPage({ ChangeHeight }) {
                       </button>
                     </BrowserView>
                   </Link>
-                </li>
+                </li> */}
               </ul>
             </div>
           </div>

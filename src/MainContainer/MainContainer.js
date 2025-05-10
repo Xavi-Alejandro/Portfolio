@@ -104,7 +104,14 @@ export default function MainContainer() {
               <MobileView>
                 <div className="col-md-12">
                   <div className="text-center">
-                    <p className="stickToBottom fw-bold" onClick={()=>{setHeight(0)}}>Tap to minimize</p>
+                    <p
+                      className="stickToBottom fw-bold"
+                      onClick={() => {
+                        setHeight(0);
+                      }}
+                    >
+                      Tap to minimize
+                    </p>
                   </div>
                 </div>
               </MobileView>
@@ -121,7 +128,7 @@ export default function MainContainer() {
             <Route path="/" element={<Navigate to="/about" />} />
             <Route path="/about" element={<About />} />
             <Route path="/projects" element={<Projects />} />
-            <Route path="/resume" element={<Resume />} />
+            {/* <Route path="/resume" element={<Resume />} /> */}
           </Routes>
         </div>
       </BrowserRouter>
