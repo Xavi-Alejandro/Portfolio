@@ -8,7 +8,7 @@ import MainPortfolioPage from "../MainPortfolioPage/MainPortfolioPage";
 
 import About from "../About/About";
 import Projects from "../Projects/Projects";
-import Resume from "../Resume/resume";
+// import Resume from "../Resume/resume";
 
 export default function MainContainer() {
   const [height, setHeight] = useState(window.innerHeight);
